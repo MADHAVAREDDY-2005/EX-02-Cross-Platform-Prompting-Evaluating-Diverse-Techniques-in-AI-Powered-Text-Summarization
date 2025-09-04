@@ -151,6 +151,8 @@ Blockchain is a decentralized digital ledger that records transactions securely 
 • Claude → 3.8<br>
 • Copilot → 4.1
 </p>
+
+
 ## Chain-of-thought Prompting:
 ### Prompt:
 "Let's think step-by-step. First, explain how blockchain works, then summarize its key applications."
