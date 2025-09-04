@@ -19,8 +19,62 @@ Based on the article, blockchain technology is fundamentally a decentralized and
 ### Claude:
 This research paper examines blockchain technology's fundamentals, challenges, and applications across six domains through experimental studies. Blockchain operates as a decentralized, cryptographically-secured ledger system that eliminates intermediaries but faces significant challenges including scalability limitations, privacy concerns, regulatory uncertainty, and energy consumption issues. The authors conducted experiments on hybrid blockchain architectures (claiming 5,000 transactions per second), social impact applications like refugee identity management and fair trade tracking, IoT integration for enhanced security, blockchain-based data marketplaces with token incentives, carbon footprint tracking systems, and decentralized autonomous organizations (DAOs) for democratic governance. While the paper presents positive experimental results suggesting blockchain's potential across these domains, the findings appear based on small-scale tests that may not reflect real-world performance constraints, and many of the supposedly "novel" applications have been extensively explored in the blockchain community for years, raising questions about both the scalability claims and the novelty assertions made by the researchers.
 
-### Co-pilot:
+### Copilot:
 The article "The Basics of Blockchain Technology" introduces blockchain as a decentralized, immutable digital ledger system that securely records transactions across a distributed network. It explains how blockchain relies on cryptographic principles and consensus mechanisms to ensure data integrity without the need for a central authority. Each block contains a set of transactions linked by cryptographic hashes, forming a secure chain. The technology’s core strengths—transparency, security, and efficiency—make it transformative across industries like finance, healthcare, supply chain, and governance. Despite its promise, blockchain faces challenges such as scalability, privacy concerns, and regulatory hurdles, which must be addressed to unlock its full potential.
+<h2>📊 Evaluation of Zero-Shot Summarization </h2>
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Criteria</th>
+    <th>ChatGPT</th>
+    <th>Gemini</th>
+    <th>Claude</th>
+    <th>Copilot</th>
+  </tr>
+  <tr>
+    <td><b>Accuracy</b></td>
+    <td>⭐⭐⭐⭐½ (High) – covers fundamentals, challenges, future uses clearly</td>
+    <td>⭐⭐⭐⭐ (High) – correct fundamentals, but misses opportunities/future directions</td>
+    <td>⭐⭐⭐⭐ (High) – technically accurate but over-critical and slightly biased</td>
+    <td>⭐⭐⭐⭐ (High) – good fundamentals and applications, less detail on future</td>
+  </tr>
+  <tr>
+    <td><b>Coherence</b></td>
+    <td>⭐⭐⭐⭐½ (Very High) – smooth flow and well-organized</td>
+    <td>⭐⭐⭐⭐ (High) – structured, but more definitional than summary-like</td>
+    <td>⭐⭐⭐⭐ (High) – coherent but dense, more like a critique than summary</td>
+    <td>⭐⭐⭐⭐ (High) – flows logically, simple structure</td>
+  </tr>
+  <tr>
+    <td><b>Simplicity</b></td>
+    <td>⭐⭐⭐⭐ (High) – clear, but dense with technical terms</td>
+    <td>⭐⭐⭐½ (Moderate-High) – easy to follow but more textbook style</td>
+    <td>⭐⭐⭐ (Moderate) – academic and critical tone, harder for undergrads</td>
+    <td>⭐⭐⭐⭐ (High) – simple, undergraduate-friendly</td>
+  </tr>
+  <tr>
+    <td><b>Speed</b></td>
+    <td>⭐⭐⭐⭐⭐ (Fast, ~2s)</td>
+    <td>⭐⭐⭐⭐½ (Fast, ~3s)</td>
+    <td>⭐⭐⭐⭐ (Moderate, ~4s)</td>
+    <td>⭐⭐⭐⭐½ (Fast, ~3s)</td>
+  </tr>
+  <tr>
+    <td><b>User Experience (UX)</b></td>
+    <td>⭐⭐⭐⭐½ (Well formatted, neat paragraph)</td>
+    <td>⭐⭐⭐⭐ (Neat, but slightly long-winded)</td>
+    <td>⭐⭐⭐½ (Dense, critique style, less user-friendly)</td>
+    <td>⭐⭐⭐⭐ (Clean and readable)</td>
+  </tr>
+</table>
+
+<p><b>Final Score (avg):</b><br>
+• ChatGPT → 4.4<br>
+• Gemini → 4.0<br>
+• Claude → 3.8<br>
+• Copilot → 4.1
+</p>
+
 
 ## 
 ## Algorithm
